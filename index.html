@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammer Checker Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <h1>Free Grammar Checker</h1>
+        <p>Ensure your writing is mistake-free with the help of this online grammar checker.
+         Paste your text or start typing below to pinpoint grammatical errors, spelling mistakes, and punctuation inaccuracies.</p>
+    <textarea id="txtarea" class="txtarea" maxlength="500" placeholder="Start writing here. "></textarea>
+    <button onclick="Copy()">Copy</button>
+    <div class="findChar">
+        <p>Total Character: <span id="ttchar">0</span></p>
+        <p>Remaining Character: <span id="remchar">1000</span></p>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
